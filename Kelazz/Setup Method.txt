@@ -1,0 +1,16 @@
+sudo su
+sudo passwd
+apt update
+apt install npm -y
+apt install python3
+
+npm install fake-useragent
+npm install cloudscraper
+npm install requests
+npm install https-proxy-agent
+npm install axios
+npm install randomstring
+npm install shell_exec
+
+ulimit -n 999999
+ulimit -l unlimited
